@@ -1,0 +1,41 @@
+#sobre-nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.descripcion {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.descripcion h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.descripcion p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.imagen {
+    width: 35%;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
