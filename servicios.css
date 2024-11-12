@@ -1,0 +1,29 @@
+#servicios {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.services-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.service {
+    width: 30%;
+    text-align: center;
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.carousel img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    height: auto;
+    text-align: center;
+}
